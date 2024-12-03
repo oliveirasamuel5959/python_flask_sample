@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Workcenter {{ name | safe }}</h1>
+    {% include 'cards.html' %}
+{% endblock %}
